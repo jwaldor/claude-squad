@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLAUDE SQUAD &mdash; Vibe Coding At The Gym</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="floaty floaty-1">CLAUDE</div>
+  <div class="floaty floaty-2">SQUAD</div>
+  <div class="floaty floaty-3">VIBE</div>
+  <div class="floaty floaty-4">CODE</div>
+  <div class="floaty floaty-5">GAINS</div>
+  <div class="floaty floaty-6">SAUNA</div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <h1 class="title">
+        <span class="title-line line-1">CLAUDE</span>
+        <span class="title-line line-2">SQUAD</span>
+      </h1>
+      <p class="tagline">we vibe code on our phones with our voice<br>while we lift heavy things at the gym</p>
+      <p class="date-badge">APRIL 24 &bull; VITAL CLIMBING GYM &bull; SAUNA &bull; DINNER</p>
+      <div class="emoji-row">
+        <span>lift</span><span>code</span><span>sauna</span><span>eat</span>
+      </div>
+      <a href="#agenda" class="cta-button">SEE THE AGENDA</a>
+    </div>
+  </header>
+
+  <section id="agenda" class="agenda">
+    <h2 class="section-header">THE AGENDA <span class="wiggle">(it slaps)</span></h2>
+    <div class="agenda-grid">
+      <div class="agenda-item rotate-l">
+        <div class="agenda-icon">LIFT</div>
+        <h3>Lift Heavy Things</h3>
+        <p>Squat. Bench. Deadlift. Overhead press. Whisper sweet nothings to Claude between sets so the squad ships features faster than you can rerack.</p>
+      </div>
+      <div class="agenda-item rotate-l">
+        <div class="agenda-icon">CODE</div>
+        <h3>Vibe Code (On Phones)</h3>
+        <p>Voice in. Code out. The squad doesn't touch a keyboard. The squad <em>speaks</em>. Claude listens. PRs appear like magic.</p>
+      </div>
+      <div class="agenda-item rotate-r">
+        <div class="agenda-icon">SAUNA</div>
+        <h3>Sauna Time</h3>
+        <p>After the gains we get really, really sweaty in a hot wooden box. This is where the best ideas happen. Some say also where the worst ones do too.</p>
+      </div>
+      <div class="agenda-item rotate-l">
+        <div class="agenda-icon">DINNER</div>
+        <h3>Dinner</h3>
+        <p>We eat. We refuel. The squad debates tabs vs spaces between bites. Nobody wins.</p>
+      </div>
+      <div class="agenda-item rotate-r special">
+        <div class="agenda-icon">??</div>
+        <h3>Whatever Else</h3>
+        <p>Honestly? Vibes will dictate. Maybe more sauna. Maybe a second dinner. Squad decides in real time. Claude takes notes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="manifesto">
+    <h2 class="section-header">THE CLAUDE SQUAD MANIFESTO</h2>
+    <ul class="manifesto-list">
+      <li>We do not type. We <em>speak</em>.</li>
+      <li>We do not skip leg day. We do not skip dinner.</li>
+      <li>The phone is the IDE. The IDE is the phone.</li>
+      <li>Sauna is a deploy step.</li>
+      <li>If you can climb a V4 and ship a PR in the same hour, you are squad.</li>
+      <li>Always be vibing.</li>
+    </ul>
+  </section>
+
+  <section class="gallery-section" data-section="weights">
+    <h2 class="section-header">PHOTOS: LIFTING WEIGHTS <span class="wiggle">(send it!!)</span></h2>
+    <p class="gallery-blurb">heavy iron, heavier vibes</p>
+    <div class="gallery" id="gallery-weights"></div>
+    <button class="upload-trigger" data-section="weights">+ ADD WEIGHTS PHOTOS</button>
+  </section>
+
+  <section class="gallery-section" data-section="vibe-coding">
+    <h2 class="section-header">PHOTOS: VIBE CODING</h2>
+    <p class="gallery-blurb">phone in hand. voice in air. PRs in the cloud.</p>
+    <div class="gallery" id="gallery-vibe-coding"></div>
+    <button class="upload-trigger" data-section="vibe-coding">+ ADD VIBE CODING PHOTOS</button>
+  </section>
+
+  <section class="gallery-section alt" data-section="sauna">
+    <h2 class="section-header">PHOTOS: SAUNA</h2>
+    <p class="gallery-blurb">sweaty. enlightened. probably a little dizzy.</p>
+    <div class="gallery" id="gallery-sauna"></div>
+    <button class="upload-trigger" data-section="sauna">+ ADD SAUNA PHOTOS</button>
+  </section>
+
+  <section class="gallery-section" data-section="dinner">
+    <h2 class="section-header">PHOTOS: DINNER</h2>
+    <p class="gallery-blurb">refueling the squad. carbs are fuel. fuel is love.</p>
+    <div class="gallery" id="gallery-dinner"></div>
+    <button class="upload-trigger" data-section="dinner">+ ADD DINNER PHOTOS</button>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 CLAUDE SQUAD &bull; vibe coded into existence &bull; no keyboards harmed</p>
+    <p class="lil">if you have the password, you can post photos. if you don't, ask a squad member.</p>
+  </footer>
+
+  <div class="modal" id="upload-modal" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <h3 id="modal-title">UPLOAD PHOTOS</h3>
+      <form id="upload-form">
+        <input type="hidden" name="section" id="modal-section">
+        <label>
+          <span>Squad password</span>
+          <input type="text" name="password" id="modal-password" required placeholder="ask a squad member" autocomplete="off">
+        </label>
+        <label>
+          <span>Your name (optional)</span>
+          <input type="text" name="uploader" id="modal-uploader" placeholder="Anonymous Squad Member" maxlength="60">
+        </label>
+        <label>
+          <span>Caption (optional)</span>
+          <input type="text" name="caption" id="modal-caption" placeholder="caption for these pics" maxlength="280">
+        </label>
+        <label>
+          <span>Pick photos (up to 20)</span>
+          <input type="file" name="photos" id="modal-files" accept="image/*" multiple required>
+        </label>
+        <button type="submit" class="cta-button" id="modal-submit">SEND IT</button>
+        <p class="modal-status" id="modal-status"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

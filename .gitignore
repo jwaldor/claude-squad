@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.env
+*.log
+npm-debug.log*
+
+# claude-squad
+claude-squad/public/uploads/*
+!claude-squad/public/uploads/.gitkeep
+claude-squad/data/
+claude-squad/photos.json
+
+# whowantstoclawedrightnow
+whowantstoclawedrightnow/data/

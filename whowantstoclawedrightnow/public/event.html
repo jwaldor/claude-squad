@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d1117" />
+    <title>WhoWantsToClawedRightNow</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A6%9E%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/style.css?v=__BUILD_ID__" />
+  </head>
+  <body>
+    <figure class="roman-quote" aria-label="Quote from Roman">
+      <blockquote>“Being consistently imperfect is better than being inconsistently perfect.”</blockquote>
+      <figcaption>— Roman</figcaption>
+    </figure>
+
+    <header class="hero hero-event">
+      <a href="/" class="back-link">← back</a>
+      <h1 id="event-title">…</h1>
+      <p id="event-when" class="event-meta"></p>
+      <p id="event-where" class="event-meta"></p>
+      <p id="event-host" class="event-meta"></p>
+      <p id="event-desc" class="event-desc"></p>
+      <div class="share">
+        <input id="share-url" type="text" readonly />
+        <button id="share-copy" type="button">Copy link</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="rsvp-card" class="card">
+        <h2>RSVP</h2>
+        <form id="rsvp-form" autocomplete="off">
+          <input id="rsvp-name" name="name" type="text" placeholder="Your name" maxlength="40" required />
+          <div class="status-group">
+            <label><input type="radio" name="status" value="yes" checked /> Going</label>
+            <label><input type="radio" name="status" value="maybe" /> Maybe</label>
+            <label><input type="radio" name="status" value="no" /> Can't</label>
+          </div>
+          <button type="submit">RSVP 🦞</button>
+        </form>
+        <p id="rsvp-error" class="error" hidden></p>
+      </section>
+
+      <section id="me-card" class="card" hidden>
+        <div class="me">
+          <span>You're in as <strong id="me-name"></strong>.</span>
+          <div class="me-actions">
+            <select id="me-status" aria-label="Change status">
+              <option value="yes">Going</option>
+              <option value="maybe">Maybe</option>
+              <option value="no">Can't</option>
+            </select>
+            <button id="leave-btn" class="link">Leave</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Going <span id="count-yes" class="count">0</span></h2>
+        <ul id="roster-yes" class="roster"></ul>
+        <p id="empty-yes" class="empty">Nobody yet. Be the first claw.</p>
+      </section>
+
+      <section class="card">
+        <h2>Maybe <span id="count-maybe" class="count">0</span></h2>
+        <ul id="roster-maybe" class="roster"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Can't make it <span id="count-no" class="count">0</span></h2>
+        <ul id="roster-no" class="roster"></ul>
+      </section>
+    </main>
+
+    <div id="toast-stack" class="toast-stack" aria-live="polite"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/event.js?v=__BUILD_ID__"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d1117" />
+    <title>WhoWantsToClawedRightNow</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A6%9E%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/style.css?v=__BUILD_ID__" />
+  </head>
+  <body>
+    <figure class="roman-quote" aria-label="Quote from Roman">
+      <blockquote>“Being consistently imperfect is better than being inconsistently perfect.”</blockquote>
+      <figcaption>— Roman</figcaption>
+    </figure>
+
+    <header class="hero">
+      <h1><span class="claw">🦞</span> WhoWantsToClawedRightNow<span class="dot">.com</span></h1>
+      <p class="tagline">Throw an event. Share the link. Claude your friends.</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>New event</h2>
+        <form id="create-form" autocomplete="off">
+          <label>
+            <span>Title</span>
+            <input name="title" type="text" maxlength="120" placeholder="Clawed Squad meetup" required />
+          </label>
+          <div class="row-grid">
+            <label>
+              <span>Date &amp; time</span>
+              <input name="startsAt" type="datetime-local" />
+            </label>
+            <label>
+              <span>Host</span>
+              <input name="hostName" type="text" maxlength="60" placeholder="Your name" />
+            </label>
+          </div>
+          <label>
+            <span>Location</span>
+            <input name="location" type="text" maxlength="200" placeholder="Where?" />
+          </label>
+          <label>
+            <span>Description</span>
+            <textarea name="description" rows="3" maxlength="2000" placeholder="What's the vibe?"></textarea>
+          </label>
+          <button type="submit">Create event 🦞</button>
+          <p id="create-error" class="error" hidden></p>
+        </form>
+      </section>
+
+      <section id="recent-card" class="card" hidden>
+        <h2>Recent events on this device</h2>
+        <ul id="recent" class="recent"></ul>
+      </section>
+    </main>
+
+    <script src="/home.js?v=__BUILD_ID__"></script>
+  </body>
+</html>
