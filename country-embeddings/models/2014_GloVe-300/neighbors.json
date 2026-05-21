@@ -1,0 +1,51 @@
+{
+  "year": 2014,
+  "label": "GloVe-300",
+  "description": "GloVe 6B 300d (Stanford, 2014; Wikipedia+Gigaword)",
+  "explained_variance": [
+    0.09737762063741684,
+    0.07708726823329926
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Lebanon",
+      "cosine": 0.6646811962127686
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6632462739944458
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.5806888937950134
+    },
+    {
+      "country": "United Arab Emirates",
+      "cosine": 0.5351477265357971
+    },
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.5200843811035156
+    },
+    {
+      "country": "Jordan",
+      "cosine": 0.5108731389045715
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.4746931791305542
+    },
+    {
+      "country": "United States",
+      "cosine": 0.43247485160827637
+    },
+    {
+      "country": "French Southern Territories",
+      "cosine": 0.41459354758262634
+    },
+    {
+      "country": "Libya",
+      "cosine": 0.4083901047706604
+    }
+  ]
+}
