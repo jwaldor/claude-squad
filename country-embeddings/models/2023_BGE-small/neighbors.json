@@ -1,0 +1,51 @@
+{
+  "year": 2023,
+  "label": "BGE-small",
+  "description": "BAAI/bge-small-en-v1.5 (2023)",
+  "explained_variance": [
+    0.06611964851617813,
+    0.03927282989025116
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Lebanon",
+      "cosine": 0.7162911891937256
+    },
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.7051436901092529
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.697219967842102
+    },
+    {
+      "country": "North Korea",
+      "cosine": 0.6969999670982361
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6969202756881714
+    },
+    {
+      "country": "Armenia",
+      "cosine": 0.6943896412849426
+    },
+    {
+      "country": "Switzerland",
+      "cosine": 0.6929603815078735
+    },
+    {
+      "country": "Jordan",
+      "cosine": 0.6898979544639587
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.6887410879135132
+    },
+    {
+      "country": "Argentina",
+      "cosine": 0.6846936941146851
+    }
+  ]
+}

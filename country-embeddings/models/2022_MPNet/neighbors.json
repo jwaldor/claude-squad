@@ -1,0 +1,51 @@
+{
+  "year": 2022,
+  "label": "MPNet",
+  "description": "all-mpnet-base-v2 (2021/2022 SBERT family)",
+  "explained_variance": [
+    0.10783551633358002,
+    0.05770934745669365
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Lebanon",
+      "cosine": 0.7487894296646118
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.7141682505607605
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.7021439075469971
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.6996104717254639
+    },
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.6895174980163574
+    },
+    {
+      "country": "Iraq",
+      "cosine": 0.6869611740112305
+    },
+    {
+      "country": "Kuwait",
+      "cosine": 0.6595672369003296
+    },
+    {
+      "country": "Libya",
+      "cosine": 0.6580796241760254
+    },
+    {
+      "country": "Tunisia",
+      "cosine": 0.6569926738739014
+    },
+    {
+      "country": "Morocco",
+      "cosine": 0.6399722695350647
+    }
+  ]
+}
