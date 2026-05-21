@@ -1,0 +1,51 @@
+{
+  "year": 2024,
+  "label": "mxbai-large",
+  "description": "mixedbread-ai/mxbai-embed-large-v1 (2024)",
+  "explained_variance": [
+    0.06576196746182494,
+    0.04235504431059109
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Jordan",
+      "cosine": 0.7275345366659949
+    },
+    {
+      "country": "Lebanon",
+      "cosine": 0.7185787105413891
+    },
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.7074875528368382
+    },
+    {
+      "country": "Ireland",
+      "cosine": 0.7040088778913454
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.7010145635940184
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.697977133924391
+    },
+    {
+      "country": "India",
+      "cosine": 0.6886503566722671
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6838069674072853
+    },
+    {
+      "country": "Armenia",
+      "cosine": 0.6824776253781297
+    },
+    {
+      "country": "Iceland",
+      "cosine": 0.6772957226233649
+    }
+  ]
+}
