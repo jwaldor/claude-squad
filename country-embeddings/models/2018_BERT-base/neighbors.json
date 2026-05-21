@@ -1,0 +1,51 @@
+{
+  "year": 2018,
+  "label": "BERT-base",
+  "description": "bert-base-uncased mean-pool (Google, 2018)",
+  "explained_variance": [
+    0.21467918157577515,
+    0.0582374632358551
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Lebanon",
+      "cosine": 0.8825192451477051
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.8800569772720337
+    },
+    {
+      "country": "Oman",
+      "cosine": 0.866377055644989
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.8601950407028198
+    },
+    {
+      "country": "Sudan",
+      "cosine": 0.8493504524230957
+    },
+    {
+      "country": "India",
+      "cosine": 0.848172664642334
+    },
+    {
+      "country": "Yemen",
+      "cosine": 0.8462769985198975
+    },
+    {
+      "country": "Morocco",
+      "cosine": 0.8462710976600647
+    },
+    {
+      "country": "Tunisia",
+      "cosine": 0.8446421027183533
+    },
+    {
+      "country": "China",
+      "cosine": 0.8408381342887878
+    }
+  ]
+}
