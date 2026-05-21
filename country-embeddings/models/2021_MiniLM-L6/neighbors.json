@@ -1,0 +1,51 @@
+{
+  "year": 2021,
+  "label": "MiniLM-L6",
+  "description": "all-MiniLM-L6-v2 (2021)",
+  "explained_variance": [
+    0.08605164289474487,
+    0.05622131749987602
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Iran",
+      "cosine": 0.7230474948883057
+    },
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.7195707559585571
+    },
+    {
+      "country": "Lebanon",
+      "cosine": 0.7026879191398621
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6725167036056519
+    },
+    {
+      "country": "Switzerland",
+      "cosine": 0.6650974750518799
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.6605309247970581
+    },
+    {
+      "country": "Saudi Arabia",
+      "cosine": 0.6555703282356262
+    },
+    {
+      "country": "Iraq",
+      "cosine": 0.6264191269874573
+    },
+    {
+      "country": "China",
+      "cosine": 0.6261605024337769
+    },
+    {
+      "country": "North Korea",
+      "cosine": 0.6144366264343262
+    }
+  ]
+}

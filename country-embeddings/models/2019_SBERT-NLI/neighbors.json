@@ -1,0 +1,51 @@
+{
+  "year": 2019,
+  "label": "SBERT-NLI",
+  "description": "SBERT bert-base-nli-mean-tokens (Reimers, 2019)",
+  "explained_variance": [
+    0.07287929207086563,
+    0.06703841686248779
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Palestine, State of",
+      "cosine": 0.8234586715698242
+    },
+    {
+      "country": "Lebanon",
+      "cosine": 0.7024998664855957
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.6857686042785645
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6699347496032715
+    },
+    {
+      "country": "Jordan",
+      "cosine": 0.6614617109298706
+    },
+    {
+      "country": "Oman",
+      "cosine": 0.6512069702148438
+    },
+    {
+      "country": "India",
+      "cosine": 0.6432510018348694
+    },
+    {
+      "country": "Eritrea",
+      "cosine": 0.6407678127288818
+    },
+    {
+      "country": "Netherlands",
+      "cosine": 0.6395903825759888
+    },
+    {
+      "country": "Malaysia",
+      "cosine": 0.6371221542358398
+    }
+  ]
+}
