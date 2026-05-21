@@ -1,0 +1,473 @@
+{
+  "n_countries": 249,
+  "models": [
+    {
+      "year": 2014,
+      "label": "GloVe-300",
+      "description": "GloVe 6B 300d (Stanford, 2014; Wikipedia+Gigaword)",
+      "error": null,
+      "explained_variance": [
+        0.09737762063741684,
+        0.07708726823329926
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Lebanon",
+          "cosine": 0.6646811962127686
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6632462739944458
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.5806888937950134
+        },
+        {
+          "country": "United Arab Emirates",
+          "cosine": 0.5351477265357971
+        },
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.5200843811035156
+        },
+        {
+          "country": "Jordan",
+          "cosine": 0.5108731389045715
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.4746931791305542
+        },
+        {
+          "country": "United States",
+          "cosine": 0.43247485160827637
+        },
+        {
+          "country": "French Southern Territories",
+          "cosine": 0.41459354758262634
+        },
+        {
+          "country": "Libya",
+          "cosine": 0.4083901047706604
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "label": "fastText-300",
+      "description": "fastText subword 300d (Facebook, 2017; wiki-news)",
+      "error": null,
+      "explained_variance": [
+        0.0860738605260849,
+        0.06962350010871887
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Lebanon",
+          "cosine": 0.6848146915435791
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6564955711364746
+        },
+        {
+          "country": "Iraq",
+          "cosine": 0.6221453547477722
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.6196240186691284
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.6143739819526672
+        },
+        {
+          "country": "Jordan",
+          "cosine": 0.598577082157135
+        },
+        {
+          "country": "Saudi Arabia",
+          "cosine": 0.5896954536437988
+        },
+        {
+          "country": "Pakistan",
+          "cosine": 0.5770280361175537
+        },
+        {
+          "country": "Ukraine",
+          "cosine": 0.5533316135406494
+        },
+        {
+          "country": "United Arab Emirates",
+          "cosine": 0.552510142326355
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "label": "BERT-base",
+      "description": "bert-base-uncased mean-pool (Google, 2018)",
+      "error": null,
+      "explained_variance": [
+        0.21467918157577515,
+        0.0582374632358551
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Lebanon",
+          "cosine": 0.8825192451477051
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.8800569772720337
+        },
+        {
+          "country": "Oman",
+          "cosine": 0.866377055644989
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.8601950407028198
+        },
+        {
+          "country": "Sudan",
+          "cosine": 0.8493504524230957
+        },
+        {
+          "country": "India",
+          "cosine": 0.848172664642334
+        },
+        {
+          "country": "Yemen",
+          "cosine": 0.8462769985198975
+        },
+        {
+          "country": "Morocco",
+          "cosine": 0.8462710976600647
+        },
+        {
+          "country": "Tunisia",
+          "cosine": 0.8446421027183533
+        },
+        {
+          "country": "China",
+          "cosine": 0.8408381342887878
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "label": "SBERT-NLI",
+      "description": "SBERT bert-base-nli-mean-tokens (Reimers, 2019)",
+      "error": null,
+      "explained_variance": [
+        0.07287929207086563,
+        0.06703841686248779
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.8234586715698242
+        },
+        {
+          "country": "Lebanon",
+          "cosine": 0.7024998664855957
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.6857686042785645
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6699347496032715
+        },
+        {
+          "country": "Jordan",
+          "cosine": 0.6614617109298706
+        },
+        {
+          "country": "Oman",
+          "cosine": 0.6512069702148438
+        },
+        {
+          "country": "India",
+          "cosine": 0.6432510018348694
+        },
+        {
+          "country": "Eritrea",
+          "cosine": 0.6407678127288818
+        },
+        {
+          "country": "Netherlands",
+          "cosine": 0.6395903825759888
+        },
+        {
+          "country": "Malaysia",
+          "cosine": 0.6371221542358398
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "label": "MiniLM-L6",
+      "description": "all-MiniLM-L6-v2 (2021)",
+      "error": null,
+      "explained_variance": [
+        0.08605164289474487,
+        0.05622131749987602
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Iran",
+          "cosine": 0.7230474948883057
+        },
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.7195707559585571
+        },
+        {
+          "country": "Lebanon",
+          "cosine": 0.7026879191398621
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6725167036056519
+        },
+        {
+          "country": "Switzerland",
+          "cosine": 0.6650974750518799
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.6605309247970581
+        },
+        {
+          "country": "Saudi Arabia",
+          "cosine": 0.6555703282356262
+        },
+        {
+          "country": "Iraq",
+          "cosine": 0.6264191269874573
+        },
+        {
+          "country": "China",
+          "cosine": 0.6261605024337769
+        },
+        {
+          "country": "North Korea",
+          "cosine": 0.6144366264343262
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "label": "MPNet",
+      "description": "all-mpnet-base-v2 (2021/2022 SBERT family)",
+      "error": null,
+      "explained_variance": [
+        0.10783551633358002,
+        0.05770934745669365
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Lebanon",
+          "cosine": 0.7487894296646118
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.7141682505607605
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.7021439075469971
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.6996104717254639
+        },
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.6895174980163574
+        },
+        {
+          "country": "Iraq",
+          "cosine": 0.6869611740112305
+        },
+        {
+          "country": "Kuwait",
+          "cosine": 0.6595672369003296
+        },
+        {
+          "country": "Libya",
+          "cosine": 0.6580796241760254
+        },
+        {
+          "country": "Tunisia",
+          "cosine": 0.6569926738739014
+        },
+        {
+          "country": "Morocco",
+          "cosine": 0.6399722695350647
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "label": "BGE-small",
+      "description": "BAAI/bge-small-en-v1.5 (2023)",
+      "error": null,
+      "explained_variance": [
+        0.06611964851617813,
+        0.03927282989025116
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Lebanon",
+          "cosine": 0.7162911891937256
+        },
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.7051436901092529
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.697219967842102
+        },
+        {
+          "country": "North Korea",
+          "cosine": 0.6969999670982361
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6969202756881714
+        },
+        {
+          "country": "Armenia",
+          "cosine": 0.6943896412849426
+        },
+        {
+          "country": "Switzerland",
+          "cosine": 0.6929603815078735
+        },
+        {
+          "country": "Jordan",
+          "cosine": 0.6898979544639587
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.6887410879135132
+        },
+        {
+          "country": "Argentina",
+          "cosine": 0.6846936941146851
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "label": "mxbai-large",
+      "description": "mixedbread-ai/mxbai-embed-large-v1 (2024)",
+      "error": null,
+      "explained_variance": [
+        0.06576196746182494,
+        0.04235504431059109
+      ],
+      "israel_neighbors": [
+        {
+          "country": "Jordan",
+          "cosine": 0.7275345366659949
+        },
+        {
+          "country": "Lebanon",
+          "cosine": 0.7185787105413891
+        },
+        {
+          "country": "Palestine, State of",
+          "cosine": 0.7074875528368382
+        },
+        {
+          "country": "Ireland",
+          "cosine": 0.7040088778913454
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.7010145635940184
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.697977133924391
+        },
+        {
+          "country": "India",
+          "cosine": 0.6886503566722671
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.6838069674072853
+        },
+        {
+          "country": "Armenia",
+          "cosine": 0.6824776253781297
+        },
+        {
+          "country": "Iceland",
+          "cosine": 0.6772957226233649
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "label": "nomic-v1.5",
+      "description": "nomic-ai/nomic-embed-text-v1.5 (2024/2025)",
+      "error": null,
+      "explained_variance": [
+        0.07114768773317337,
+        0.03857487067580223
+      ],
+      "israel_neighbors": [
+        {
+          "country": "India",
+          "cosine": 0.830956220626831
+        },
+        {
+          "country": "Egypt",
+          "cosine": 0.826370120048523
+        },
+        {
+          "country": "Iran",
+          "cosine": 0.8256710767745972
+        },
+        {
+          "country": "Kenya",
+          "cosine": 0.8211570382118225
+        },
+        {
+          "country": "Indonesia",
+          "cosine": 0.8117890357971191
+        },
+        {
+          "country": "Oman",
+          "cosine": 0.8042514324188232
+        },
+        {
+          "country": "Syria",
+          "cosine": 0.799384355545044
+        },
+        {
+          "country": "China",
+          "cosine": 0.7993276119232178
+        },
+        {
+          "country": "Ethiopia",
+          "cosine": 0.7984416484832764
+        },
+        {
+          "country": "Eritrea",
+          "cosine": 0.7965949177742004
+        }
+      ]
+    }
+  ]
+}

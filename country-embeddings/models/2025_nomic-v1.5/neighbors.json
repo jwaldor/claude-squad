@@ -1,0 +1,51 @@
+{
+  "year": 2025,
+  "label": "nomic-v1.5",
+  "description": "nomic-ai/nomic-embed-text-v1.5 (2024/2025)",
+  "explained_variance": [
+    0.07114768773317337,
+    0.03857487067580223
+  ],
+  "israel_neighbors": [
+    {
+      "country": "India",
+      "cosine": 0.830956220626831
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.826370120048523
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.8256710767745972
+    },
+    {
+      "country": "Kenya",
+      "cosine": 0.8211570382118225
+    },
+    {
+      "country": "Indonesia",
+      "cosine": 0.8117890357971191
+    },
+    {
+      "country": "Oman",
+      "cosine": 0.8042514324188232
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.799384355545044
+    },
+    {
+      "country": "China",
+      "cosine": 0.7993276119232178
+    },
+    {
+      "country": "Ethiopia",
+      "cosine": 0.7984416484832764
+    },
+    {
+      "country": "Eritrea",
+      "cosine": 0.7965949177742004
+    }
+  ]
+}
