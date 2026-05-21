@@ -1,0 +1,51 @@
+{
+  "year": 2017,
+  "label": "fastText-300",
+  "description": "fastText subword 300d (Facebook, 2017; wiki-news)",
+  "explained_variance": [
+    0.0860738605260849,
+    0.06962350010871887
+  ],
+  "israel_neighbors": [
+    {
+      "country": "Lebanon",
+      "cosine": 0.6848146915435791
+    },
+    {
+      "country": "Syria",
+      "cosine": 0.6564955711364746
+    },
+    {
+      "country": "Iraq",
+      "cosine": 0.6221453547477722
+    },
+    {
+      "country": "Iran",
+      "cosine": 0.6196240186691284
+    },
+    {
+      "country": "Egypt",
+      "cosine": 0.6143739819526672
+    },
+    {
+      "country": "Jordan",
+      "cosine": 0.598577082157135
+    },
+    {
+      "country": "Saudi Arabia",
+      "cosine": 0.5896954536437988
+    },
+    {
+      "country": "Pakistan",
+      "cosine": 0.5770280361175537
+    },
+    {
+      "country": "Ukraine",
+      "cosine": 0.5533316135406494
+    },
+    {
+      "country": "United Arab Emirates",
+      "cosine": 0.552510142326355
+    }
+  ]
+}
